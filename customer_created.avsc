@@ -1,0 +1,15 @@
+{
+  "namespace": "com.spring.kafka.avro.user",
+  "type": "record",
+  "name": "CustomerEvent",
+  "fields": [
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    }
+  ]
+}
